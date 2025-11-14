@@ -7,7 +7,7 @@
 
 FLAG=1
 
-#$(info kperfmon_DUMMY="$(shell cp -f $(srctree)/include/linux/olog.pb.h  $(srctree)/drivers/kperfmon/)")
+#$(info kperfmon_DUMMY="$(shell cp -f $(srctree)/include/linux/ologk.h  $(srctree)/drivers/kperfmon/)")
 
 ifneq ($(CONFIG_KPERFMON), y)
 FLAG=0
